@@ -36,4 +36,4 @@ jobs:
         run: docker build -t jeongbinok/practice .
 
       - name: Push docker image
-        run: docker push leejeyong/practice:latest
+        run: docker push jeongbinok/practice:latest
