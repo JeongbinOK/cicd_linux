@@ -33,7 +33,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Build Docker image
-        run: docker build -t leejeyong/practice .
+        run: docker build -t jeongbinok/practice .
 
       - name: Push docker image
         run: docker push leejeyong/practice:latest
